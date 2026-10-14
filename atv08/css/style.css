@@ -19,7 +19,7 @@ nav a {
 }
 .container {
     background: rgb(248, 184, 141);
-    width: 80%;
+    width: 40%;
     margin: 20px auto;
     padding:20px;
     border-radius: 10px;
@@ -35,6 +35,12 @@ img {
 .amarelo {
     color:yellow;
     padding:20px;
+}
+.amarelopreto {
+    color:yellow;
+    padding:0.2px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
 .borda {
     background: rgb(248, 184, 141);
