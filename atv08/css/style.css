@@ -3,20 +3,24 @@ body {
     background-color: #a83e00;
     margin:0;
 }
+
 header {
     background-color: #532100;
     color:white;
     padding:20px;
 }
+
 nav {
     background-color: #222;
     padding: 15px;
 }
+
 nav a {
     color: white;
     margin-right:15px;
     text-decoration: none;
 }
+
 .container {
     background: rgb(248, 184, 141);
     width: 40%;
@@ -24,24 +28,29 @@ nav a {
     padding:20px;
     border-radius: 10px;
 }
+
 img {
     width: 200px;
     border-radius: 10px;
 }
+
 .textos {
     color:rgb(2, 2, 2);
     padding:20px;
 }
+
 .amarelo {
     color:yellow;
     padding:20px;
 }
+
 .amarelopreto {
     color:yellow;
     padding:0.2px;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
 }
+
 .borda {
     background: rgb(248, 184, 141);
     width: 20%;
@@ -50,4 +59,40 @@ img {
     border-radius: 10px;
     display: flex;
     align-items: left;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgb(248, 184, 141);
+  width: 350px;
+}
+
+.container-cards {
+  display: flex;
+  gap: 20px;
+  place-items: center;
+}
+
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-texto h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.1rem;
+}
+
+.card-texto p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
 }
