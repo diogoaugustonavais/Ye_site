@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a83e00;
+    margin:0;
+}
+
+header {
+    background-color: #532100;
+    color:white;
+    padding:20px;
+}
+
+nav {
+    background-color: #222;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin-right:15px;
+    text-decoration: none;
+}
+
+.container {
+    background: rgb(248, 184, 141);
+    width: 40%;
+    margin: 20px auto;
+    padding:20px;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.textos {
+    color:rgb(2, 2, 2);
+    padding:20px;
+}
+
+.amarelo {
+    color:yellow;
+    padding:20px;
+}
+
+.amarelopreto {
+    color: #a83e00;
+    padding:0.2px;
+}
+
+.borda {
+    background: rgb(248, 184, 141);
+    width: 20%;
+    margin: 20px auto;
+    padding:20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: left;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgb(248, 184, 141);
+  width: 350px;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  place-items: center;
+}
+
+.cardisc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgb(248, 184, 141);
+  width: 350px;
+}
+
+.cardisc-texto h1 {
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+.cardisc-texto ol {
+  text-align: left; 
+  padding-left: 20px;
+}
+
+.cardisc-texto li {
+  margin-bottom: 8px; 
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-texto h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.1rem;
+}
+
+.card-texto p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
