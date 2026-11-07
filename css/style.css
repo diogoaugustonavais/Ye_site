@@ -72,8 +72,6 @@ img {
   overflow: hidden;
 }
 
-}
-
 .container-cards {
   display: flex;
   justify-content: center;
@@ -90,7 +88,6 @@ img {
   border-radius: 8px;
   background-color: rgb(248, 184, 141);
   width: 350px;
-
 }
 
 .cardisc-texto h1 {
